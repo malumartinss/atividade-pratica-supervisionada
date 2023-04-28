@@ -1,3 +1,7 @@
+html {
+    width: 100%;
+}
+
 nav {
     background-color:  #0086ff;
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.185);
@@ -18,7 +22,7 @@ nav {
     height: 300px;
 }
 
-.sidebar {
+.menu-gen {
     background-color: #0086ff;
   
 }
@@ -37,6 +41,7 @@ ul {
 
 .lista-gen {
     display: flex;
+    justify-content: space-evenly;
 }
 
 li {
@@ -46,7 +51,15 @@ a {
     text-decoration: none!important;
     color: white!important;
 }
-    
+
+.navbar-nav {
+    display: flex;
+    justify-content: space-between;
+}   
+
+.right {
+    display: flex;
+}
   
 
 
