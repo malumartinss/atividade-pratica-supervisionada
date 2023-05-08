@@ -61,6 +61,20 @@ a {
     display: flex;
 }
   
+.desc-content {
+    margin: 0px 100px 0px 100px;
+}
 
+.main-desc {
+    display: flex;
+    justify-content: space-around;
+}
 
+.main-img, .main-txt {
+    width: 50%;
+    margin: 0 2rem 0 2rem;
+}
 
+.main-img img {
+    width: 100%;
+}
