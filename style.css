@@ -1,10 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap');
+
+:root {
+    --main-blue: #394dd1;
+    --main-font: Montserrat;
+  }
+
+* {
+    font-family: var(--main-font)
+}
+
+.flex {
+    display: flex;
+}
+
+
 html {
     width: 100%;
 }
 
-nav {
-    background-color:  #0086ff;
-    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.185);
+.navbar {
+    background-color:  var(--main-blue);
     
 }
 
@@ -23,7 +38,7 @@ nav {
 }
 
 .menu-gen {
-    background-color: #0086ff;
+    background-color: rgb(36, 36, 36);
   
 }
     
@@ -47,18 +62,14 @@ ul {
 li {
     margin: 0px 10px 0px 10px;
     }
-a {
+
+.navbar a, a.btn, .lista-gen a, button {
     text-decoration: none!important;
     color: white!important;
 }
 
 .navbar-nav {
-    display: flex;
     justify-content: space-between;
-}   
-
-.right {
-    display: flex;
 }
   
 .desc-content {
@@ -66,15 +77,50 @@ a {
 }
 
 .main-desc {
-    display: flex;
     justify-content: space-around;
 }
 
-.main-img, .main-txt {
-    width: 50%;
+.main-img {
+    width: 30%;
+}
+
+.main-txt {
+    width: 70%;
     margin: 0 2rem 0 2rem;
+}
+
+.main-txt-two {
+    margin-left: 2rem;
 }
 
 .main-img img {
     width: 100%;
+}
+
+.main-txt-one .btn {
+    font-size: 2em;
+    font-weight: 600;
+    border-radius: 1.3rem;
+}
+
+.btn {
+    background-color: var(--main-blue)!important;
+}
+
+@media (max-width: 576px) {
+    .lista-gen, .flex {
+        display: block
+    }
+
+    .desc-content {
+        margin: 0;
+    }
+
+    .main-img, .main-txt {
+        width: 100%;
+    }
+
+    .main-txt-two {
+        margin: 0;
+    }
 }

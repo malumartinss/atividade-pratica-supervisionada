@@ -11,19 +11,19 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
+      <div class="container-fluid">
           <a class="navbar-brand" href="index.html">Nome da loja</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav flex">
               <div class="left">
                 <li class="nav-item">
                   <a class="nav-link active" aria-current="page" href="#">Home</a>
                 </li>
               </div>
-              <div class="right">
+              <div class="right flex">
                 <li class="nav-item">
                   <a href="carrinho.html" class="nav-link">Carrinho</a>
                 </li>
@@ -36,32 +36,63 @@
         </div>
       </nav>
 
+      <div class="menu-gen">
+        <ul type="none" class="lista-gen">
+          <li><a href="">Ação</a></li>
+          <li><a href="">RPG</a></li>
+          <li><a href="">Aventura</a></li>
+          <li><a href="">Terror</a></li>
+          <li><a href="">Esporte</a></li>
+          <li><a href="">FPS</a></li>
+          <li><a href="">Arcade</a></li>
+          <li><a href="">Arcade</a></li>
+          <li><a href="">Arcade</a></li>
+        </ul>
+      </div>
+
+      <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">RPG de ação</li>
+          <li class="breadcrumb-item active" aria-current="page">The Witcher 3 </li>
+        </ol>
+      </nav>
+
       <div class="page">
-        <div class="menu-gen">
-          <ul type="none" class="lista-gen">
-            <li><a href="">Ação</a></li>
-            <li><a href="">RPG</a></li>
-            <li><a href="">Aventura</a></li>
-            <li><a href="">Terror</a></li>
-            <li><a href="">Esporte</a></li>
-            <li><a href="">FPS</a></li>
-            <li><a href="">Arcade</a></li>
-            <li><a href="">Arcade</a></li>
-            <li><a href="">Arcade</a></li>
-          </ul>
-        </div>
         
         <div class="desc-content">
-          <div class="main-desc">
+          <div class="main-desc flex">
             <div class="main-img">
               <img src="https://image.api.playstation.com/vulcan/ap/rnd/202211/0711/kh4MUIuMmHlktOHar3lVl6rY.png" alt="">
             </div>
             <div class="main-txt">
               <h1>The Witcher 3: Wild Hunt</h1>
-              <h3>R$100,00</h3>
-              <p>Lançado em 2015, The Witcher 3: Wild Hunt marcou época como um dos jogos mais aclamados da geração. Ele conta a aventura do bruxo Geralt de Rívia em busca de Ciri, enquanto enfrenta inimigos mortais e explora um mundo cheio de possibilidades, desafios e aventuras.</p>
-              <a href="#" class="btn btn-primary">Comprar</a>
+              <div class="flex">
+                <div class="main-txt-one">
+                  <p>Estoque disponível</p>
+                  <p>De: R$199,00 por</p>
+                  <h3>R$100,00</h3>
+                  <a href="#" class="btn">Comprar</a>
+                </div>
+                <div class="main-txt-two">
+                  <p>Avaliações</p>
+                  <p>Calcule seu frete</p>
+                  <nav class="navbar bg-body-tertiary">
+                    <div class="container-fluid">
+                      <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="00000-000" aria-label="Search">
+                        <button class="btn" type="submit">Calcular</button>
+                      </form>
+                    </div>
+                  </nav>
+                </div>
+              </div>
             </div>
+          </div>
+
+          <div class="desc">
+            <h2>Descrição do jogo</h2>
+            <p>Lançado em 2015, The Witcher 3: Wild Hunt marcou época como um dos jogos mais aclamados da geração. Ele conta a aventura do bruxo Geralt de Rívia em busca de Ciri, enquanto enfrenta inimigos mortais e explora um mundo cheio de possibilidades, desafios e aventuras.</p>
           </div>
 
           <div class="reviews">
