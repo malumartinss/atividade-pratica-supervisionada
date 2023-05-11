@@ -20,12 +20,20 @@ html {
 
 .navbar {
     background-color:  var(--main-blue);
-    
+}
+
+.search-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.search-btn {
+    background-color: white!important;
 }
 
 .card {
     margin: 30px;
-    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.411);
+    box-shadow: 10px 5px 5px rgba(211, 211, 211, 0.664);
 }
 
 .card-body {
@@ -103,7 +111,7 @@ li {
     border-radius: 1.3rem;
 }
 
-.btn {
+.card-body .btn {
     background-color: var(--main-blue)!important;
 }
 
