@@ -22,7 +22,7 @@ html {
     background-color:  var(--main-blue);
 }
 
-.search-icon {
+.search-icon, .review-icon {
     width: 1.5rem;
     height: 1.5rem;
 }
