@@ -109,11 +109,18 @@ li {
     font-size: 2em;
     font-weight: 600;
     border-radius: 1.3rem;
-}
-
-.card-body .btn {
     background-color: var(--main-blue)!important;
 }
+
+.card-body .btn, .btn-calcular {
+    background-color: var(--main-blue)!important;
+}
+
+.preco {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
 
 @media (max-width: 576px) {
     .lista-gen, .flex {
