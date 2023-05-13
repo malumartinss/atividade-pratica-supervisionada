@@ -22,7 +22,7 @@ html {
     background-color:  var(--main-blue);
 }
 
-.search-icon, .review-icon {
+.search-icon, .review-icon, .nav-icon {
     width: 1.5rem;
     height: 1.5rem;
 }
@@ -49,7 +49,6 @@ html {
     background-color: rgb(36, 36, 36);
   
 }
-    
 
 .content {
     background-color: #FFFFFF;
@@ -62,14 +61,14 @@ ul {
     text-align: center;
 }
 
+li {
+    list-style-type: none;
+}
+
 .lista-gen {
     display: flex;
     justify-content: space-evenly;
 }
-
-li {
-    margin: 0px 10px 0px 10px;
-    }
 
 .navbar a, a.btn, .lista-gen a, button {
     text-decoration: none!important;
@@ -81,11 +80,12 @@ li {
 }
   
 .desc-content {
-    margin: 0px 100px 0px 100px;
+    margin: 0 8em 0 8em;
 }
 
 .main-desc {
     justify-content: space-around;
+    margin-bottom: 1.5em;
 }
 
 .main-img {
@@ -95,6 +95,10 @@ li {
 .main-txt {
     width: 70%;
     margin: 0 2rem 0 2rem;
+}
+
+.main-txt h1 {
+    margin-bottom: 1.5rem;
 }
 
 .main-txt-two {
@@ -121,6 +125,25 @@ li {
     font-weight: 600;
 }
 
+.review-icon {
+    margin-right: .5rem;
+}
+
+.nav-calcular, .nav-calcular .container-fluid {
+    padding: 0!important;
+}
+
+.review {
+    background-color: #bdcbffa1;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: .5em;
+}
+
+footer {
+    text-align: center;
+    background-color: #bdcbffa1;
+}
 
 @media (max-width: 576px) {
     .lista-gen, .flex {
@@ -128,14 +151,19 @@ li {
     }
 
     .desc-content {
-        margin: 0;
+        margin: 0 1.5em 0 1.5em;
     }
 
     .main-img, .main-txt {
         width: 100%;
+        margin: 0;
     }
 
-    .main-txt-two {
+    .main-txt h1 {
+        margin: .5em 0 0 0;
+    }
+
+    .main-txt-one p, .main-txt-two, .card {
         margin: 0;
     }
 }

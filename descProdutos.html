@@ -4,37 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nome do jogo</title>
+    <title>The Witcher 3</title>
 
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg">
-      <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">Nome da loja</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav flex">
-              <div class="left">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
-                </li>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Nome da loja</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav flex">
+            <div class="left">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"></a>
+              </li>
+            </div>
+            <nav class="navbar">
+              <div class="container-fluid">
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+                  <button class="btn search-btn" type="submit"><img class="search-icon" src="search.png" alt=""></button>
+                </form>
               </div>
-              <div class="right flex">
-                <li class="nav-item">
-                  <a href="carrinho.html" class="nav-link">Carrinho</a>
-                </li>
-                <li class="nav-item">
-                  <a href="login.html" class="nav-link">Fazer login</a>
-                </li>
-              </div>
-            </ul>
-          </div>
+            </nav>
+            <div class="right flex">
+              <li class="nav-item">
+                <img class="nav-icon" src="carrinho.png" alt="">
+                <a href="carrinho.html" class="nav-link">Carrinho</a>
+              </li>
+              <li class="nav-item">
+                <img class="nav-icon" src="user.png" alt="">
+                <a href="login.html" class="nav-link">Fazer login</a>
+              </li>
+            </div>
+          </ul>
         </div>
-      </nav>
+      </div>
+    </nav>
 
       <div class="menu-gen">
         <ul type="none" class="lista-gen">
@@ -75,13 +85,13 @@
                   <a href="#" class="btn">Comprar</a>
                 </div>
                 <div class="main-txt-two">
-                  <p>Avaliações</p>
-                  <div class="previa-reviews">
-                    <img clas="review-icon" src="like.png" alt="">
+                  <p>Avaliações:</p>
+                  <div class="previa-reviews flex">
+                    <img class="review-icon" src="like.png" alt="">
                     <p>97% positivas</p>
                   </div>
                   <p>Calcule seu frete</p>
-                  <nav class="navbar bg-body-tertiary">
+                  <nav class="navbar nav-calcular bg-body-tertiary">
                     <div class="container-fluid">
                       <form class="d-flex" role="search">
                         <input class="form-control me-2" type="search" placeholder="00000-000" aria-label="Search">
@@ -96,20 +106,27 @@
 
           <div class="desc">
             <h2>Descrição do jogo</h2>
-            <p>Lançado em 2015, The Witcher 3: Wild Hunt marcou época como um dos jogos mais aclamados da geração. Ele conta a aventura do bruxo Geralt de Rívia em busca de Ciri, enquanto enfrenta inimigos mortais e explora um mundo cheio de possibilidades, desafios e aventuras.</p>
+            <p>Em The Witcher 3: Wild Hunt, você controla Geralt of Rivia, um mercenário caçador de monstros. O lugar é um continente devastado pela guerra e infestado de monstros que você pode explorar à vontade. Seu contrato atual é encontrar Ciri, a Criança da Profecia, uma arma viva que pode alterar a forma do mundo. Prepare-se para um ensurdecedor confronto com o Wild Hunt e mergulhe nesta complexa e emocionante história, na qual você conhecerá personagens inesquecíveis.
+              <br>
+              Também contém todos os conteúdos adicionais, incluindo todas as novidades e objetos, como o Photo Mode integrado, espadas, armaduras e roupas alternativas com inspiração na série The Witcher da Netflix e muito mais.</p>
           </div>
 
           <div class="reviews">
             <h2>Análises de clientes</h2>
             <div class="review">
               <h5>Nome de usuário</h5>
-              <img src="image.png" alt="">
-              <p>Análise positiva</p>
+              <div class="flex flex-sm">
+                <img class="review-icon" src="like.png" alt="">
+                <p>Análise positiva</p>
+              </div>
               <p>"Jogo bom."</p>
             </div>
             <div class="review">
               <h5>Nome de usuário</h5>
-              <p>Análise negativa</p>
+              <div class="flex">
+                <img class="review-icon" src="dislike.png" alt="">
+                <p>Análise negativa</p>
+              </div>
               <p>"Jogo bom mesmo assim"</p>
             </div>
           </div>
