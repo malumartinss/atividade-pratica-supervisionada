@@ -16,6 +16,7 @@
 
 html {
     width: 100%;
+    height: 100%;
 }
 
 .navbar {
@@ -168,41 +169,29 @@ footer {
     }
 }
 
-
-.cabeçalho{
-    width: 100%;
-    height: 4em;
-    background-color: blue;
-    padding: 15px;
-}
-
-.voltar{
-    position: relative;
-    width: 4%;
-    height: 4em;  
-    left: 5em;
-    color: white;
-}
-  
-.sac{
-    position: absolute;
-    top: 1em;
-    right: 6em;
-    color: white;
+#mainLogin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .B3{
+    /*
+    right: 50%;
     position: absolute;
-    top: 10em;
-    right: 47%;
+    top: 10em;*/
+
+    position: relative;
+    top: 4em;
+    text-align: center;
 }
 
 .loge{
     position: relative;
     background-color: white;
-    top: 9em;
+    top: 5em;
     align-items: center;
-    left: 35%;
+    /*left: 35%;*/
     width: 20em;
     height: 20em;
     border-radius: 12%;
@@ -224,9 +213,10 @@ footer {
     border: 10px;
 }
 
-body{
-    background-image: linear-gradient(#597DFF,#6ABCEB);
-    object-position: center;
+body#bodyLogin {
+    background-image: linear-gradient(#597DFF,#6ABCEB,#BDCBFF);
+    width: 100%;
+    height: 100%;
 }
 
 .six{
