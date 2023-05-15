@@ -301,3 +301,90 @@ body#bodyLogin {
     position: absolute;
     top: 98em;
 }
+
+.b1 {
+    background-color: #5fa5e2;
+}
+
+.caixaBox {
+    position: relative;
+    background-color: white;
+    top: 16em;
+    align-items: center;
+    left: 40%;
+    width: 22em;
+    height: 17em;
+    border-radius: 12%;
+}
+
+.cadastroText{
+    position: relative;
+    top: -68px;
+    left: 45%;
+}
+
+.email {
+    position: relative;
+    top: -50px;
+    left: 43%;
+}
+
+.info1 {
+    margin-top: 3.6em;
+    background-color: #BDCBFF;
+    width: 16em;
+    height: 2em;
+    margin-left: 8%;
+    border-radius: 10px;
+    border: 10px;
+    position: relative;
+    top: -110px;
+    left: 34%;
+}
+
+.user {
+    position: relative;
+    top: -90px;
+    left: 43%;
+}
+
+.info2 {
+    margin-top: 3.6em;
+    background-color: #BDCBFF;
+    width: 16em;
+    height: 2em;
+    margin-left: 8%;
+    border-radius: 10px;
+    border: 10px;
+    position: relative;
+    top: -150px;
+    left: 34%;
+}
+
+.senha {
+    position: relative;
+    top: -130px;
+    left: 43%;
+}
+
+.info3 {
+    margin-top: 3.6em;
+    background-color: #BDCBFF;
+    width: 16em;
+    height: 2em;
+    margin-left: 8%;
+    border-radius: 10px;
+    border: 10px;
+    position: relative;
+    top: -187px;
+    left: 34%;
+}
+
+.avançarCadastroText {
+    position: fixed;
+    color: rgb(28, 45, 199)!important;
+    top: 550px;
+    left: 47%;
+    bottom: 35%;
+    text-decoration: none;
+}
