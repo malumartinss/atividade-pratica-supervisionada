@@ -144,6 +144,15 @@ li {
 footer {
     text-align: center;
     background-color: #bdcbffa1;
+    padding: 2em;
+}
+
+.footer-list {
+    padding: 0;
+}
+
+.footer-list li {
+    color: black!important;
 }
 
 @media (max-width: 576px) {
