@@ -5,8 +5,9 @@ function verificarLogin() {
     const alert = document.getElementById('alert')
 
     if (usuario === 'usuario' && senha === 'senha') {
-        linkEntrar.setAttribute('href', 'index.html')
+        window.location.href = "index.html"
     } else if (usuario !== 'usuario' || senha !== 'senha') {
+        window.location.href = "login.html"
         alert.classList.remove('invisible')
         alert.classList.add('visible')
     }
