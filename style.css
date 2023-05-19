@@ -388,3 +388,7 @@ body#bodyLogin {
     bottom: 35%;
     text-decoration: none;
 }
+
+#alert {
+    display: none;
+}

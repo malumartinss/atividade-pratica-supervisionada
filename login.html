@@ -53,7 +53,7 @@
 
     </main>
 
-    <div id="alert" class="alert alert-danger invisible" role="alert">
+    <div id="alert" class="alert alert-danger" role="alert">
         Usuário ou senha incorretos.    
     </div>
 
@@ -66,8 +66,7 @@
             if (usuario == "admin" && senha == "admin") {
                 location.href = "index.html";
             } else {
-                alert.classList.remove('invisible')
-                alert.classList.add('visible')
+                alert.style.display = "block"
                 console.log("Usuário ou senha incorretos")
                 alert("Usuário ou senha incorretos")
             }
