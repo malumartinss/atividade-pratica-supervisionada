@@ -1,7 +1,8 @@
-function verificarLogin() {
+const linkEntrar = document.getElementById('linkEntrar')
+
+linkEntrar.click = function verificarLogin() {
     const usuario = document.getElementById('user')
     const senha = document.getElementById('senha') 
-    const linkEntrar = document.getElementById('linkEntrar') 
     const alert = document.getElementById('alert')
 
     var usuarioValor = usuario.value
@@ -16,5 +17,3 @@ function verificarLogin() {
         console.log("Usuário ou senha errados")
     }
 }
-
-verificarLogin()
