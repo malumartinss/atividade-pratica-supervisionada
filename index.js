@@ -10,6 +10,7 @@ function verificarLogin() {
         window.location.href = "login.html"
         alert.classList.remove('invisible')
         alert.classList.add('visible')
+        console.log("Usuário ou senha errados")
     }
 }
 
