@@ -1,6 +1,6 @@
 const linkEntrar = document.getElementById('linkEntrar')
 
-linkEntrar.click = function verificarLogin() {
+linkEntrar.onclick = function verificarLogin() {
     const usuario = document.getElementById('user')
     const senha = document.getElementById('senha') 
     const alert = document.getElementById('alert')
