@@ -1,16 +1,11 @@
-const linkEntrar = document.getElementById('linkEntrar')
+function verificarLogin() {
+    var usuario = document.getElementById('user').value
+    var senha = document.getElementById('senha').value 
+    var alert = document.getElementById('alert')
 
-linkEntrar.onclick = function verificarLogin() {
-    const usuario = document.getElementById('user')
-    const senha = document.getElementById('senha') 
-    const alert = document.getElementById('alert')
-
-    var usuarioValor = usuario.value
-    var senhaValor = senha.value
-
-    if (usuarioValor === 'usuario' && senhaValor === 'senha') {
+    if (usuario == "usuario" && senha == "senha") {
         window.location.href = "index.html"
-    } else if (usuario !== 'usuario' || senha !== 'senha') {
+    } else if (usuario !== "usuario" || senha !== "senha") {
         window.location.href = "login.html"
         alert.classList.remove('invisible')
         alert.classList.add('visible')
