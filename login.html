@@ -28,19 +28,19 @@
             </div>
             <div class="loge">
                 <h6 class="date">Usuário</h6>
-                <input type="text" name="E-mail" class="R2D2">
+                <input id="user" type="text" name="E-mail" class="R2D2">
                 <div>
                     <h6 class="six">Senha</h6> 
                     <button tabindex="-1" type="button" class="IconEyeClose">
                         <img src="Imagens/olho.png" class="rad">
                      </button>
-                    <input class="password" type="text" name="Senha">
+                    <input id="senha" class="password" type="text" name="Senha">
                 </div>
                 <div>
                     <div>
                         <h6 class="esqueceu"><a href="">Esqueci minha senha</a></h6>
                        </div>
-                       <a href="index.html" target="_self" style="color: white;">
+                       <a id="linkEntrar" href="" target="_self" onClick="verificarLogin()" style="color: white;">
                     <button type="button" class="entrar"><h3 class="kiss" style="color: white;">Entrar</h3>
                     </button>
                     </a>
@@ -49,7 +49,12 @@
             </div>
            <!--<h1 class="ssa">teste</h1>-->
         </form>
+
+        <div id="alert" class="alert alert-danger invisible" role="alert">
+            Usuário ou senha incorretos.    
+        </div>
     </main>
 
+    <script src="interações.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </html>
