@@ -6,8 +6,9 @@ function verificarLogin() {
     if (usuario == "admin" && senha == "admin") {
         location.href = "index.html";
     } else {
-        alert.classList.remove('invisible')
-        alert.classList.add('visible')
+        /*alert.classList.remove('invisible')
+        alert.classList.add('visible')*/
         console.log("Usuário ou senha incorretos")
+        alert("Usuário ou senha incorretos")
     }
 }
