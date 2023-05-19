@@ -50,12 +50,11 @@
             </div>
            <!--<h1 class="ssa">teste</h1>-->
         </form>
+        <div id="alert" class="alert alert-danger" role="alert">
+            Usuário ou senha incorretos.    
+        </div>
 
     </main>
-
-    <div id="alert" class="alert alert-danger" role="alert">
-        Usuário ou senha incorretos.    
-    </div>
 
     <script>
         function verificarLogin() {
@@ -68,7 +67,6 @@
             } else {
                 alert.style.display = "block"
                 console.log("Usuário ou senha incorretos")
-                alert("Usuário ou senha incorretos")
             }
         }
     </script>
