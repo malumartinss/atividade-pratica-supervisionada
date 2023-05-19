@@ -4,7 +4,10 @@ function verificarLogin() {
     const linkEntrar = document.getElementById('linkEntrar') 
     const alert = document.getElementById('alert')
 
-    if (usuario === 'usuario' && senha === 'senha') {
+    var usuarioValor = usuario.value
+    var senhaValor = senha.value
+
+    if (usuarioValor === 'usuario' && senhaValor === 'senha') {
         window.location.href = "index.html"
     } else if (usuario !== 'usuario' || senha !== 'senha') {
         window.location.href = "login.html"
