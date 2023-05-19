@@ -11,3 +11,5 @@ function verificarLogin() {
         alert.classList.add('visible')
     }
 }
+
+verificarLogin()
