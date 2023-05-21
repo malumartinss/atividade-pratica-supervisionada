@@ -391,4 +391,9 @@ body#bodyLogin {
 
 #alert {
     display: none;
+    top: 15%;
+}
+
+input.entrar {
+    color: white;
 }
