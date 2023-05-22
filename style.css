@@ -60,6 +60,7 @@ ul {
     color: white!important;
     width: 100%;
     text-align: center;
+    padding: 0!important;
 }
 
 li {
@@ -145,10 +146,6 @@ footer {
     text-align: center;
     background-color: #bdcbffa1;
     padding: 2em;
-}
-
-.footer-list {
-    padding: 0;
 }
 
 .footer-list li {
@@ -396,4 +393,12 @@ body#bodyLogin {
 
 input.entrar {
     color: white;
+}
+
+.search-card-desktop {
+    width: 10em!important;
+}
+
+.search-card-mobile {
+    width: 90%!important;
 }

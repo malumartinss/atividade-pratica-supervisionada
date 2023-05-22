@@ -27,7 +27,7 @@
             <nav class="navbar">
               <div class="container-fluid">
                 <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+                  <input id="searchBar" onkeyup="searchGame()" class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
                   <button class="btn search-btn" type="submit"><img class="search-icon" src="search.png" alt=""></button>
                 </form>
               </div>
@@ -69,7 +69,7 @@
             <div class="card" style="width: 18rem;">
               <img src="Imagens/thewitcher.jpg" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">The Witcher 3</h5>
+                <h5 class="card-title gameName">The Witcher 3</h5>
                 <p class="card-text">
                   <h4>R$100,00</h4>
                 </p>
@@ -80,7 +80,7 @@
             <div class="card" style="width: 18rem;">
               <img src="Imagens/hollowknight.jpg" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Hollow Knight</h5>
+                <h5 class="card-title gameName">Hollow Knight</h5>
                 <p class="card-text">
                   <h4>R$30,00</h4>
                 </p>
@@ -91,7 +91,7 @@
             <div class="card" style="width: 18rem;">
               <img src="Imagens/thelastofus.jpg" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">The Last Of Us</h5>
+                <h5 class="card-title gameName">The Last Of Us</h5>
                 <p class="card-text"><h4>R$300,00</h4></p>
                 <a href="#" class="btn btn-primary">Comprar</a>
               </div>
@@ -100,7 +100,7 @@
             <div class="card" style="width: 18rem;">
               <img src="Imagens/gtav.jpg" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">GTA V</h5>
+                <h5 class="card-title gameName">GTA V</h5>
                 <p class="card-text"><h4>R$70,00</h4></p>
                 <a href="#" class="btn btn-primary">Comprar</a>
               </div>
@@ -111,7 +111,7 @@
             <div class="card" style="width: 18rem;">
               <img src="Imagens/mortalkombat.jpg" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Mortal Kombat X</h5>
+                <h5 class="card-title gameName">Mortal Kombat X</h5>
                 <p class="card-text">
                   <h4>R$150,00</h4>
                 </p>
@@ -122,7 +122,7 @@
             <div class="card" style="width: 18rem;">
               <img src="Imagens/forza4.jpg" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Forza Horizon 4</h5>
+                <h5 class="card-title gameName">Forza Horizon 4</h5>
                 <p class="card-text">
                   <h4>R$350,00</h4>
                 </p>
@@ -133,7 +133,7 @@
             <div class="card" style="width: 18rem;">
               <img src="Imagens/horizon.jpeg" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Horizon Zero Dawn</h5>
+                <h5 class="card-title gameName">Horizon Zero Dawn</h5>
                 <p class="card-text">
                   <h4>R$70,00</h4>
                 </p>
@@ -144,7 +144,7 @@
             <div class="card" style="width: 18rem;">
               <img src="Imagens/godofwar.jpg" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">God Of War Ragnarok</h5>
+                <h5 class="card-title gameName">God Of War Ragnarok</h5>
                 <p class="card-text">
                   <h4>R$70,00</h4>
                 </p>
@@ -203,6 +203,7 @@
         
       </footer>
 
+      <script src="index.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
 </html>
